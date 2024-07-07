@@ -13,4 +13,6 @@ npm run dev
 # 要件定義
 - ログイン機能
 - 記事投稿
-- 
+
+# Laravel Breeze
+- 最初にインストールする
