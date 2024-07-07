@@ -15,4 +15,14 @@ npm run dev
 - 記事投稿
 
 # Laravel Breeze
-- 最初にインストールする
+- 最初にインストールす
+
+# strict設定
+- バグに気付きやすくなる
+- laravel-debuger
+- laravel-ide-helper
+
+# Controller
+## 作成
+php artisan make:controller HelloController
+php artisan make:controller Admin/HelloController
