@@ -9,3 +9,8 @@
 docker compose up -d  
 docker compose exec l11dev-app bash  
 npm run dev  
+
+# 要件定義
+- ログイン機能
+- 記事投稿
+- 
