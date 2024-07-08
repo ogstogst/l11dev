@@ -17,6 +17,8 @@
 
   <form action="">
     名前: <input type="text" name="name" value="{{ $name }}">
+    <br>
+    ニックネーム: <input type="text" name="nickname">
 
     <input type="submit" value="送信する">
   </form>

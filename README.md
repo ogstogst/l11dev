@@ -2,7 +2,8 @@
 [参考](https://qiita.com/hitotch/items/2e816bc1423d00562dc2)  
 
 # ページ
-[TOP](http://localhost)  
+[TOP](http://localhost/)  
+[Hello](http://localhost/hello/)
 
 # コマンド
 ## 起動時
@@ -33,8 +34,14 @@ php artisan make:controller Admin/HelloController
 ```
 
 # Routes
+## ファイル
 ```php
 /Users/yutorix/workspace/l11dev/routes/web.php
+```
+
+## リストを確認
+```php
+php artisan route:list
 ```
 
 # View
@@ -53,3 +60,7 @@ php artisan make:view hello
 # 拡張機能
 - Laravel Blade formatter
 - Laravel Blade Snipetts
+
+# Middleware
+
+# ファサード
