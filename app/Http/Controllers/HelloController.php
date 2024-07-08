@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class HelloController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        $name = '鈴木太郎';
+        $name = $request->input('name');
 
         return view('hello', ['name' => $name]);
     }

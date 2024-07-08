@@ -43,6 +43,13 @@ php artisan make:controller Admin/HelloController
 php artisan make:view hello
 ```
 
+## 変数出力
+```php
+// HTMLエスケープしてくれる！
+{{$name}}
+```
+
+
 # 拡張機能
 - Laravel Blade formatter
 - Laravel Blade Snipetts

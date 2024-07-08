@@ -9,7 +9,17 @@
 
 <body>
 
-  こんにちは、{{ $name }}さん！
+  @if (filled($name))
+    こんにちは、{{ $name }}さん！
+  @else
+    名前を入力してください。
+  @endif
+
+  <form action="">
+    名前: <input type="text" name="name" value="{{ $name }}">
+
+    <input type="submit" value="送信する">
+  </form>
 
 </body>
 
